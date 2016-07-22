@@ -1,0 +1,167 @@
+#header,
+#footer{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #FF7700;
+}
+
+#footer{
+    padding: 20px 0;
+    background-color: #68147c;
+}
+
+#header .container{
+    width: 320px;
+    margin: 0 auto;
+}
+
+#nav .container,
+#main .container,
+#footer .container{
+    width: 980px;
+    margin: 0 auto;
+}
+
+#header .title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 102px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#nav{
+    background-color: #68147c;
+    padding: 10px 0;
+}
+
+#nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    transition: all 0.2s ease;
+}
+
+#nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 32px;
+    vertical-align: middle;
+}
+
+#nav ul li:hover{
+    opacity: 0.7;
+}
+
+#nav ul li figure{
+    display: inline-block;
+    line-height: 32px;
+    vertical-align: middle;
+}
+
+#nav ul li figure img{
+    display: block;
+}
+
+#main{
+    padding: 30px 0;
+    background-color: #ececec;
+}
+
+#footer .copyright{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+#main .newCall{
+    width: 500px;
+    margin: 0 auto;
+}
+
+#main .newCall .formHeader{
+    background-color: #a2ba00;
+    padding: 20px;
+}
+
+#main .newCall .formContent{
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+#main .newCall .formContent label{
+    display: block;
+    color: #9C9AA0;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+#main .newCall .formContent .formItem{
+    margin-bottom: 15px;
+}
+
+#main .newCall .formContent .submit{
+    text-align: center;
+}
+
+#main .newCall .formContent textarea{
+    background-color: #ececec;
+    color: #9C9AA0;
+    padding: 10px;
+    display: block;
+    font-size: 14px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 0;
+    min-height: 100px;
+}
+
+#main .newCall .formContent select{
+    padding: 5px;
+    color: #9C9AA0;
+    width: 150px;
+    border: 0;
+    font-size: 14px;
+    background-color: #ececec;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#main .newCall .formTitle,
+#main .newCall .phone{
+    float: left;
+}
+
+#main .newCall .formTitle{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+#main .newCall .phone{
+    margin-right: 10px;
+}
+
+#main .newCall .phone img{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

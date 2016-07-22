@@ -1,0 +1,19 @@
+{
+  "development": {
+    "version": "1.0.0",
+    "reportingError": true,
+    "displayError": true
+  },
+
+  "homologation": {
+    "version": "1.0.0",
+    "reportingError": true,
+    "displayError": true
+  },
+
+  "production": {
+    "version": "1.0.0",
+    "reportingError": false,
+    "displayError": false
+  }
+}

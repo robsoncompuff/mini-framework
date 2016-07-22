@@ -1,0 +1,64 @@
+{
+  "/": {
+    "uri": "/",
+    "title" : "Registrar Atendimento | Desafio Olx",
+    "description" : "Bem vindo ao desafio olx e registre o seu atendimento!",
+    "keywords" : "desafio, olx",
+    "robots": "noindex, nofollow",
+    "type": "url",
+    "controller": "call",
+    "action": "form",
+    "params": {
+      "static": {},
+      "dynamic": {}
+    }
+  },
+
+  "/404": {
+    "uri": "/404",
+    "title" : "Pagina não encontrada",
+    "description" : "Pagina não encontrada",
+    "keywords" : "Pagina não encontrada",
+    "robots": "noindex, nofollow",
+    "type": "url",
+    "controller": "system",
+    "action": "redirect",
+    "params": {
+      "static": {
+        "code": 404
+      },
+      "dynamic": {}
+    }
+  },
+
+
+  "/atendimento/salvar": {
+    "uri": "/chamada/salvar",
+    "title" : "Registrar Atendimento | Desafio Olx",
+    "description" : "Bem vindo ao desafio olx!",
+    "keywords" : "desafio, olx",
+    "robots": "noindex, nofollow",
+    "type": "url",
+    "controller": "call",
+    "action": "save",
+    "params": {
+      "static": {},
+      "dynamic": {}
+    }
+  },
+
+  "/atendimentos": {
+    "uri": "/atendimentos",
+    "title" : "Atendimentos | Desafios Olx",
+    "description" : "Veja todos os atendimentos por data e estado",
+    "keywords" : "desafio, olx",
+    "robots": "noindex, nofollow",
+    "type": "url",
+    "controller": "call",
+    "action": "index",
+    "params": {
+      "static": {},
+      "dynamic": {}
+    }
+  }
+}

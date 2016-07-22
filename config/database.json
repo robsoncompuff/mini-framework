@@ -1,0 +1,34 @@
+{
+  "development": {
+    "user":"root",
+    "password":"",
+    "hostname":"127.0.0.1",
+    "port":"3306",
+    "database": "desafioolx",
+    "charset": "utf8",
+    "autocommit": "true",
+    "debug":false
+  },
+
+  "homologation": {
+    "user":"root",
+    "password":"",
+    "hostname":"127.0.0.1",
+    "port":"3306",
+    "database": "desafioolx",
+    "charset": "utf8",
+    "autocommit": "true",
+    "debug":false
+  },
+
+  "production": {
+    "user":"root",
+    "password":"",
+    "hostname":"127.0.0.1",
+    "port":"3306",
+    "database": "desafioolx",
+    "charset": "utf8",
+    "autocommit": "true",
+    "debug":false
+  }
+}
